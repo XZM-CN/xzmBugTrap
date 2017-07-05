@@ -166,3 +166,6 @@ call make.cmd
 robocopy .\ ..\..\..\__package\Server\JBugTrapServer\ JBugTrapServer.jar BugTrapServer.config start.cmd
 robocopy libs\ ..\..\..\__package\Server\JBugTrapServer\ /S /XD proguard*
 cd ..\..\..
+
+
+pause

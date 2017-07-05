@@ -49,6 +49,8 @@
     <IntDir>$(SolutionDir)..\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>$(ProjectName)D</TargetName>
+    <IncludePath>C:\boost_1_64_0;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\boost_1_64_0\bin.v2\libs\regex\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)..\bin\</OutDir>
