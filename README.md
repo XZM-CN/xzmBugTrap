@@ -1,5 +1,10 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/73nrgph9by0pgeb0?svg=true)](https://ci.appveyor.com/project/bchavez/bugtrap) [![Release](https://img.shields.io/github/release/bchavez/BugTrap.svg)](https://github.com/bchavez/BugTrap/releases) [![License](https://img.shields.io/github/license/bchavez/BugTrap.svg)](https://raw.githubusercontent.com/bchavez/BugTrap/master/LICENSE)
 
+
+# XZM Note
+CrashExplore工程需要使用VS2013以上的版本才能正常的编译通过，我使用VS2015编译肯定是没什么为题的。因为工程引用开源的Nuget项目，Nuget是一个.NET平台下的开源的项目。
+
+
 # BugTrap
 
 BugTrap is a tool to catch unhandled exceptions in **unmanaged** and **managed** .NET code. BugTrap also supports sending crash reports to a remote server for analysis.
