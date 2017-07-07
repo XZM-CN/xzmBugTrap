@@ -133,7 +133,7 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MD Release|x64'">$(ProjectDir)..\..\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <TargetName>$(ProjectName)S</TargetName>
+    <TargetName>$(ProjectName)MS</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MD Release|Win32'">
     <TargetName>$(ProjectName)MS</TargetName>
@@ -145,7 +145,7 @@
     <TargetName>$(ProjectName)MS-x64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>$(ProjectName)SD</TargetName>
+    <TargetName>$(ProjectName)MSD</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MD Debug|Win32'">
     <TargetName>$(ProjectName)MSD</TargetName>

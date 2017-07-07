@@ -223,40 +223,41 @@
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'" />
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)R_x86</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='.NET Debug|Win32'">
-    <TargetName>$(ProjectName)DN</TargetName>
+    <TargetName>$(ProjectName)NetD_x86</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='.NET Debug|x64'">
-    <TargetName>$(ProjectName)DN-x64</TargetName>
+    <TargetName>$(ProjectName)NetD_x64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='.NET Release|Win32'">
-    <TargetName>$(ProjectName)N</TargetName>
+    <TargetName>$(ProjectName)NetR_x86</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='.NET Release|x64'">
-    <TargetName>$(ProjectName)N-x64</TargetName>
+    <TargetName>$(ProjectName)NetR_x64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <TargetName>$(ProjectName)D-x64</TargetName>
+    <TargetName>$(ProjectName)D_x64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <TargetName>$(ProjectName)-x64</TargetName>
+    <TargetName>$(ProjectName)R_x64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'">
-    <TargetName>$(ProjectName)UD-x64</TargetName>
+    <TargetName>$(ProjectName)UD_x64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'">
-    <TargetName>$(ProjectName)U-x64</TargetName>
+    <TargetName>$(ProjectName)UR_x64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>$(ProjectName)D</TargetName>
+    <TargetName>$(ProjectName)D_x86</TargetName>
     <IncludePath>C:\WTL91_5321_Final\Include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
-    <TargetName>$(ProjectName)UD</TargetName>
+    <TargetName>$(ProjectName)UD_x86</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
-    <TargetName>$(ProjectName)U</TargetName>
+    <TargetName>$(ProjectName)UR_x86</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
