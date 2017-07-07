@@ -48,5 +48,23 @@ You can choose any server technology to begin accepting crash reports from BugTr
 ![Screenshot](https://raw.githubusercontent.com/bchavez/BugTrap/master/doc/Screenshot4.png)
 
 
+## ##
 ## 为了编译CrashExplorer遇到的错误
-![Alt text](https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/bjam--2017-07-04_15-54-37.png)
+## ##
+## #############################################################################################
+## bjam--2017-07-04_15-54-37.png
+![Alt text01](https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/bjam--2017-07-04_15-54-37.png)
+## boost-2017-07-04_15-31-01.png
+![Alt text02](https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/boost-2017-07-04_15-31-01.png)
+## boost-2017-07-04_15-32-12.png
+![Alt text03](https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/boost-2017-07-04_15-32-12.png)
+## boost-2017-07-04_15-32-49.png
+![Alt text04](https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/boost-2017-07-04_15-32-49.png)
+## BugTrap-2017-07-04_11-47-35.png
+![Alt text05](https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/BugTrap-2017-07-04_11-47-35.png)
+## CrashExplorer-2017-07-04_11-48-01.png
+![Alt text06](https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/CrashExplorer-2017-07-04_11-48-01.png)
+## CrashExplorer-2017-07-04_15-23-27.png
+![Alt text07](https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/CrashExplorer-2017-07-04_15-23-27.png)
+## error-2017-07-04_11-45-23.png
+![Alt text08](https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/error-2017-07-04_11-45-23.png)
