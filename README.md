@@ -46,3 +46,7 @@ You can choose any server technology to begin accepting crash reports from BugTr
 ![Screenshot](https://raw.githubusercontent.com/bchavez/BugTrap/master/doc/Screenshot2.png)
 ![Screenshot](https://raw.githubusercontent.com/bchavez/BugTrap/master/doc/Screenshot3.png)
 ![Screenshot](https://raw.githubusercontent.com/bchavez/BugTrap/master/doc/Screenshot4.png)
+
+
+## 为了编译CrashExplorer遇到的错误
+https://github.com/XZM-CN/xzmBugTrap/blob/master/pic/bjam--2017-07-04_15-54-37.png
