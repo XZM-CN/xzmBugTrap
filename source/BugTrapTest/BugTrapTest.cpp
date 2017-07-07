@@ -8,11 +8,39 @@
 
 #include "../Client/BugTrap.h"
 
-#ifndef _DEBUG
-#pragma comment(lib, "../../bin/BugTrapD.lib")      // Link to ANSI DLL
+#if defined _M_IX86
+#ifdef _MANAGED
+#ifdef _DEBUG
+#pragma comment(lib, "../../bin/BugTrap1.lib")      // Link to ANSI DLL
 #else
-#pragma comment(lib, "../../bin/BugTrap.lib")  // Link to Unicode DLL
+#pragma comment(lib, "../../bin/BugTrap2.lib")  // Link to Unicode DLL
 #endif
+#else
+#ifdef _DEBUG
+#pragma comment(lib, "../../bin/BugTrapD_x86.lib")// Debug x86
+#else
+#pragma comment(lib, "../../bin/BugTrapR_x86.lib")// Release x86
+#endif
+#endif
+#elif defined _M_X64
+#ifdef _MANAGED
+#ifdef _DEBUG
+#pragma comment(lib, "../../bin/BugTrap5.lib")// 
+#else
+#pragma comment(lib, "../../bin/BugTrap6.lib")// 
+#endif
+#else
+#ifdef _DEBUG
+#pragma comment(lib, "../../bin/BugTrap7.lib")// 
+#else
+#pragma comment(lib, "../../bin/BugTrap8.lib")// 
+#endif
+#endif
+#else
+#error CPU architecture is not supported.
+#endif
+
+
 
 
 #ifdef _DEBUG

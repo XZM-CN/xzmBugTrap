@@ -2,7 +2,8 @@
 
 
 # XZM Note
-CrashExplore工程需要使用VS2013以上的版本才能正常的编译通过，我使用VS2015编译肯定是没什么为题的。因为工程引用开源的Nuget项目，Nuget是一个.NET平台下的开源的项目。
+CrashExplore工程需要使用VS2013以上的版本才能正常的编译通过，我使用VS2015编译肯定是没什么问题的。因为工程引用开源的Nuget项目，Nuget是一个.NET平台下的开源的项目。
+在VS2010的情况下，我又新建了一个MFC的工程BugTrapTest，专门用来测试BugTrap
 
 
 # BugTrap
